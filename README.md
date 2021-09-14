@@ -1,7 +1,8 @@
 ### Rest API Absen
 
 1. run server: `npm run server`
-2. run migrate: `npm run migrate`
+2. run migrate up: `npm run migrate up` for migrate
+3. run migrate down: `npm run migrate down` for drop database
 
 ### endpoint
 
