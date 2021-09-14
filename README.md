@@ -1,5 +1,10 @@
 ### Rest API Absen
 
+1. run server: `npm run server`
+2. run migrate: `npm run migrate`
+
+### endpoint
+
 1. Register Pegawai / Supervisor
    endpoint: /api/user/register
 
