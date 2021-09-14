@@ -2,7 +2,8 @@
 
 1. Register Pegawai / Supervisor
    endpoint: /api/user/register
-   method: **POST**
+
+method: **POST**
 
 request body:
 if pegawai register
@@ -29,6 +30,7 @@ if supervisor register
 ```
 
 response status: **201**
+
 response:
 
 ```
@@ -43,7 +45,8 @@ response:
 
 2. Login pegawai / supervisor
    endpoint: /api/login
-   method: **POST**
+
+method: **POST**
 
 request body:
 
@@ -55,6 +58,7 @@ request body:
 ```
 
 response status: **200**
+
 response:
 
 ```
@@ -67,9 +71,11 @@ response:
 
 3. absent
    endpoint: /api/epresence
-   method: **POST**
+
+method: **POST**
 
 request header: bearer token
+
 request body:
 
 ```
@@ -85,6 +91,7 @@ request body:
 ```
 
 response status: **201**
+
 response:
 
 ```
@@ -96,11 +103,13 @@ response:
 
 4. get all absent
    endpoint: /api/epresences
-   method: **GET**
+
+method: **GET**
 
 request header: bearer token
 
 response status: **200**
+
 response:
 
 ```
@@ -149,10 +158,13 @@ response:
 ```
 
 5. approve absen (only supervisor)
-   endpoint: /api/epresence/:id
-   method: **PATCH**
+
+endpoint: /api/epresence/:id
+
+method: **PATCH**
 
 request header: bearer token
+
 request body:
 
 ```
@@ -168,6 +180,7 @@ request body:
 ```
 
 response status: **200**
+
 response:
 
 ```
